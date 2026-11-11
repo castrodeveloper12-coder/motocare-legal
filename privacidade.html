@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Política de privacidade · MotoCare</title>
-<meta name="description" content="Política de privacidade do MotoCare: seus dados ficam criptografados só no seu celular.">
+<title>Política de privacidade · Motoral</title>
+<meta name="description" content="Política de privacidade do Motoral: seus dados ficam criptografados só no seu celular.">
 <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 <header class="cabecera">
-  <a class="marca" href="./"><span>Moto</span><b>Care</b></a>
+  <a class="marca" href="./"><span>Moto</span><b>ral</b></a>
   <nav><a href="privacidad.html" lang="es">Español</a></nav>
 </header>
 <main>
 <h1>Política de privacidade</h1>
-<p class="meta">Em vigor desde 5 de novembro de 2026 · Aplica-se ao app MotoCare para Android e iOS.</p>
+<p class="meta">Atualizada em 11 de novembro de 2026 (versão anterior: 5 de novembro de 2026) · Aplica-se ao app Motoral (antes chamado MotoCare) para Android e iOS.</p>
 
 <div class="resumen">
   <h2>Em resumo</h2>
@@ -22,12 +22,13 @@
     <li><strong>Não há contas.</strong> Não pedimos nome, e-mail nem telefone para usar o app.</li>
     <li><strong>Os dados da sua moto ficam no seu celular</strong>, criptografados. Nós não os recebemos nem os guardamos em nenhum servidor.</li>
     <li><strong>Os anúncios</strong> são exibidos pelo Google AdMob. Você escolhe se são personalizados ou genéricos, e com o plano anual não há anúncios.</li>
+    <li><strong>As fichas técnicas</strong> são baixadas em um único pacote, igual para todos, então o nosso servidor não sabe qual moto você tem. Se você pedir um modelo que falta, é enviado só a marca, o modelo, o ano e o país, sem nada que identifique você.</li>
     <li><strong>Você pode apagar tudo</strong> no app quando quiser.</li>
   </ul>
 </div>
 
 <h2 id="controlador">1. Quem é o controlador</h2>
-<p>O MotoCare é desenvolvido por <strong>CastroDeveloper</strong>, desenvolvedor independente com domicílio na Colômbia (“nós”). Para qualquer dúvida, solicitação ou reclamação sobre privacidade, escreva para <a href="mailto:castrodeveloper12@gmail.com">castrodeveloper12@gmail.com</a>. Esse endereço também é o canal do nosso encarregado pelo tratamento de dados pessoais (LGPD).</p>
+<p>O Motoral é desenvolvido por <strong>CastroDeveloper</strong>, desenvolvedor independente com domicílio na Colômbia (“nós”). Para qualquer dúvida, solicitação ou reclamação sobre privacidade, escreva para <a href="mailto:castrodeveloper12@gmail.com">castrodeveloper12@gmail.com</a>. Esse endereço também é o canal do nosso encarregado pelo tratamento de dados pessoais (LGPD).</p>
 
 <h2 id="dados-celular">2. Dados que você guarda no seu celular</h2>
 <p>Para o app funcionar, você registra informações sobre a sua moto. Tudo isso fica salvo <strong>só no seu celular</strong> e não sai dele, a menos que você mesmo compartilhe (por exemplo, um backup):</p>
@@ -55,7 +56,7 @@
 <p>Você pode redefinir ou excluir o identificador de publicidade nas configurações do celular (no Android: <em>Configurações → Google → Anúncios</em>).</p>
 
 <h2 id="compras">5. Plano anual sem anúncios</h2>
-<p>O plano “MotoCare sem anúncios” é comprado pelo Google Play (ou App Store). O pagamento é processado pela loja: <strong>não recebemos seus dados de pagamento</strong>. O app só consulta a loja para saber se a sua assinatura está ativa e guarda esse resultado no seu celular. A assinatura é renovada a cada ano até você cancelá-la na loja.</p>
+<p>O plano “Motoral sem anúncios” é comprado pelo Google Play (ou App Store). O pagamento é processado pela loja: <strong>não recebemos seus dados de pagamento</strong>. O app só consulta a loja para saber se a sua assinatura está ativa e guarda esse resultado no seu celular. A assinatura é renovada a cada ano até você cancelá-la na loja.</p>
 
 <h2 id="avisos">6. Avisos, câmera e outras permissões</h2>
 <ul>
@@ -65,21 +66,27 @@
 </ul>
 
 <h2 id="fichas">7. Catálogo e fichas técnicas</h2>
-<p>O catálogo de marcas e modelos vem incluído no app e funciona sem internet. Se no futuro o app baixar a ficha técnica de um modelo, a solicitação incluirá só o modelo escolhido, nunca os seus dados; o servidor que a entregar pode registrar tecnicamente o endereço IP, como qualquer serviço na internet. Atualizaremos esta política antes de ativar essa função.</p>
+<p>O catálogo de marcas e modelos vem incluído no app e funciona sem internet. As <strong>fichas técnicas</strong> (intervalos de manutenção, óleo, vela, calibragem dos pneus) são tiradas dos manuais oficiais de cada fabricante e publicadas no nosso servidor <code>api.castrodeveloper.dev</code>, hospedado na Cloudflare.</p>
+<ul>
+  <li><strong>Download das fichas:</strong> o app baixa de vez em quando um único pacote com todas as fichas, o mesmo para todos os usuários. Por isso o servidor não sabe qual moto você tem. O pacote é assinado digitalmente e o app rejeita qualquer pacote alterado. Uma ficha nunca muda os seus intervalos sem que você aceite.</li>
+  <li><strong>Pedido de um modelo que falta (opcional):</strong> se a sua moto não tem ficha e você decidir pedi-la, o app envia a marca, o modelo, a versão, o ano, o país de registro e a versão do app. Não envia a sua placa, a quilometragem, os seus documentos nem nenhum identificador seu ou do seu celular, e não guardamos o seu endereço IP. Usamos esses pedidos, somados entre todos, para decidir quais fichas preparar primeiro.</li>
+</ul>
+<p>Como qualquer serviço na internet, a Cloudflare recebe o seu endereço IP ao conectar e pode usá-lo de forma técnica e temporária para entregar o conteúdo e protegê-lo de abusos (por exemplo, para limitar o número de pedidos). Nós não guardamos registros de conexão.</p>
 
 <h2 id="finalidades">8. Para que usamos os dados e com qual base legal</h2>
 <ul>
   <li><strong>Dados no seu celular:</strong> só para o app funcionar (calcular manutenções, avisar vencimentos, mostrar seus gastos). Você mesmo os trata no seu aparelho.</li>
   <li><strong>Anúncios:</strong> para manter o app gratuito. A base legal é o seu consentimento (anúncios personalizados) ou o nosso legítimo interesse em exibir publicidade não personalizada (art. 7º da LGPD).</li>
   <li><strong>Assinatura:</strong> para oferecer os benefícios do plano, como execução do contrato que você aceita ao assinar.</li>
+  <li><strong>Pedidos de modelos:</strong> para decidir quais fichas preparar. São dados anônimos que você nos envia por decisão própria.</li>
 </ul>
 <p>Não vendemos dados pessoais nem os usamos para tomar decisões automatizadas sobre você.</p>
 
 <h2 id="transferencias">9. Transferências internacionais</h2>
-<p>O Google, que presta os serviços de anúncios e de pagamentos, pode tratar os dados nos Estados Unidos e em outros países onde atua, com as garantias previstas em seus termos. Ao usar a versão com anúncios, esses dados podem sair do Brasil.</p>
+<p>O Google, que presta os serviços de anúncios e de pagamentos, pode tratar os dados nos Estados Unidos e em outros países onde atua, com as garantias previstas em seus termos. Ao usar a versão com anúncios, esses dados podem sair do Brasil. A Cloudflare, que hospeda o servidor de fichas e os pedidos anônimos de modelos, opera centros de dados em vários países, incluindo os Estados Unidos.</p>
 
 <h2 id="retencao">10. Por quanto tempo os dados são mantidos</h2>
-<p>Os dados do seu celular são mantidos até você apagá-los. Você pode apagar um registro, apagar tudo em <em>Configurações → Dados e privacidade → Excluir todos os meus dados</em>, ou desinstalar o app; em qualquer caso são apagados o banco, as fotos e suas chaves. Os dados coletados pelo Google são mantidos conforme a política dele.</p>
+<p>Os dados do seu celular são mantidos até você apagá-los. Você pode apagar um registro, apagar tudo em <em>Configurações → Dados e privacidade → Excluir todos os meus dados</em>, ou desinstalar o app; em qualquer caso são apagados o banco, as fotos e suas chaves. Os dados coletados pelo Google são mantidos conforme a política dele. Os pedidos anônimos de modelos são mantidos por no máximo 2 anos.</p>
 
 <h2 id="direitos">11. Seus direitos (LGPD)</h2>
 <p>Você tem direito à confirmação e ao acesso aos dados, à correção, à anonimização, ao bloqueio ou à eliminação, à portabilidade, à informação sobre compartilhamento e à revogação do consentimento. Como seus dados estão no seu celular, quase tudo você resolve no próprio app:</p>
@@ -95,12 +102,12 @@
 <p>Além da criptografia descrita, seguimos boas práticas de segurança no desenvolvimento do app. Se tomarmos conhecimento de um incidente de segurança que afete seus dados, vamos comunicá-lo aos titulares afetados e à ANPD em até 48 horas após confirmá-lo, quando a lei exigir.</p>
 
 <h2 id="menores">13. Menores de idade</h2>
-<p>O MotoCare é pensado para condutores maiores de idade. Não é direcionado a crianças e não coletamos intencionalmente dados de menores.</p>
+<p>O Motoral é pensado para condutores maiores de idade. Não é direcionado a crianças e não coletamos intencionalmente dados de menores.</p>
 
 <h2 id="mudancas">14. Mudanças nesta política</h2>
 <p>Se mudarmos esta política, publicaremos a nova versão nesta página com a data. Se a mudança for importante, também avisaremos no app.</p>
 <p>Esta política também está disponível <a href="privacidad.html" lang="es">em espanhol</a>, com a tabela de leis e autoridades de cada país da América Latina.</p>
 </main>
-<footer class="pie">MotoCare · <a href="mailto:castrodeveloper12@gmail.com">castrodeveloper12@gmail.com</a></footer>
+<footer class="pie">Motoral · <a href="mailto:castrodeveloper12@gmail.com">castrodeveloper12@gmail.com</a></footer>
 </body>
 </html>

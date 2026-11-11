@@ -1,6 +1,6 @@
-# MotoCare: páginas públicas
+# Motoral: páginas públicas
 
-Política de privacidad y páginas de soporte de la app MotoCare, publicadas con GitHub Pages.
+Política de privacidad y páginas de soporte de la app Motoral, publicadas con GitHub Pages.
 
 - `privacidad.html`: política de privacidad (español, con leyes y autoridades por país)
 - `privacidade.html`: política de privacidade (português do Brasil)
